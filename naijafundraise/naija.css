@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.news-pic{
+    background-image: url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/kogiflood.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.ngos-pic {
+    background-image: url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/ngos2.jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.top{
+    background-image: url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/9aijatop.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: green;
+    margin: auto;
+}
+.green{
+    background-color: green;
+    
+}
+.green_t {
+    color: green;
+}
+
+/* back to top arrow */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+  }
+
+footer{
+    /* background-image:url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/images-14.jpeg"); */
+    background-image:url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/pngtree-natural-earth-advertising-background-picture-image_974437.jpg");
+    background-repeat:inherit;
+
+}
+
+.naija_logo {
+    background-image: url("/Users/victorotene/Documents/dev/event_planning/naijafundraise/photos/flooded-farm.jpg");
+    /* background-color: blue; */
+    height: 100vh;
+    background-size: cover;
+    /* margin:auto; */
+    /* z-index: -1; */
+}
+
+.news_logo {
+    background-image: url("");
+    /* background-color: blue; */
+    height: 100vh;
+    background-size: cover;
+    /* margin:auto; */
+    /* z-index: -1; */
+}
+
+/* social media */
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+ .bhover{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 100px 0;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    height: 50px;
+}
+.bhover:hover {
+  background-color: white;
+  color: green;
+}

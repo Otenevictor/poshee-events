@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  padding: 20px;
+}
+.purple{
+    background-color: purple;
+    
+}
+.purple_t{
+    color: purple;
+}
+footer{
+    background-image:url("poshevent/media/footpurp.jpg")
+}
+.bacg_logo{
+    background-image: url("poshevent/media/doctorani.webp");
+    height: 100vh;
+    background-size: cover;
+    margin:auto;
+    z-index: -1;
+}
+
+.about_bg{
+background-image: url("poshevent/p$v/backg.jpg");
+height: 100vh;
+background-size: cover;
+margin:auto;
+z-index: -1;
+}
+
+.contact_bg{
+background-image: url("poshevent/gallary/shower.jpg");
+height: 100vh;
+background-size: cover;
+margin:auto;
+z-index: -1
+}
+.service_bg{
+background-image: url("poshevent/gallary/cak2.jpg");
+height: 100vh;
+background-size: cover;
+margin:auto;
+z-index: -1
+}
+.pre_shot{
+ background-image: url("poshevent/media/prewi.webp");
+ height: 100vh;
+background-size: cover;
+margin:auto;
+z-index: -1
+}
+.wedding_bg{
+    background-image: url("poshevent/gallary/wed8.jpg");
+    height: 100vh;
+    background-size: cover;
+    margin:auto;
+    z-index: -1
+}
+
+.all_bg{
+   background-image: url("poshevent/gallary/wed9.jpg");
+   height: 100vh;
+    background-size: cover;
+    margin:auto;
+    z-index: -1
+}
+
+button.badge {
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 100px 0;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    height: 50px;
+}
+.bhover:hover {
+  background-color: white;
+  color: black;
+}
+.my_form{
+border: 3px solid purple;
+width: 100%;
+}
+@media (min-width:600px){
+  .my_form{
+    width:50% !important; 
+  }
+  
+}
+
+
+.center{
+margin: auto;
+}
+
+
+/* picture sizing */
+#pre_img{
+width: 100%;
+height: 250px;
+}
+
+
+/* back to top arrow */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: plum;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+  }
+
+  /* social media */
+  .fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .list_style{
+    list-style-type: none;
+  }
+
+  .caro_sel{
+    height: 50%;
+    width: 100%;
+  }
+  
+    
